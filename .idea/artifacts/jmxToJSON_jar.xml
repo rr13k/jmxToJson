@@ -1,15 +1,16 @@
 <component name="ArtifactManager">
-  <artifact name="jmxToJSON:jar">
+  <artifact type="jar" name="jmxToJSON:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/jmxToJSON_jar</output-path>
-    <root id="root">
-      <element id="archive" name="jmxToJSON.jar">
-        <element id="module-output" name="jmxToJSON" />
+    <root id="archive" name="jmxToJSON.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
       </element>
-      <element id="library" level="project" name="dom4j-1.6.1" />
-      <element id="library" level="project" name="fastjson-1.2.58" />
-      <element id="library" level="project" name="jaxen-1.2.0" />
-      <element id="library" level="project" name="lombok-1.18.8" />
-      <element id="library" level="project" name="argparse4j-0.8.1" />
+      <element id="module-output" name="jmxToJSON" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/com/company/jmxToJSON/libs/dom4j-1.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/com/company/jmxToJSON/libs/fastjson-1.2.58.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/com/company/jmxToJSON/libs/jaxen-1.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/com/company/jmxToJSON/libs/lombok-1.18.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/com/company/jmxToJSON/libs/argparse4j-0.8.1.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

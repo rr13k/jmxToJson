@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="jmxToJSON:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jmxToJSON_jar</output-path>
+    <root id="root">
+      <element id="archive" name="jmxToJSON.jar">
+        <element id="module-output" name="jmxToJSON" />
+      </element>
+      <element id="library" level="project" name="dom4j-1.6.1" />
+      <element id="library" level="project" name="fastjson-1.2.58" />
+      <element id="library" level="project" name="jaxen-1.2.0" />
+      <element id="library" level="project" name="lombok-1.18.8" />
+      <element id="library" level="project" name="argparse4j-0.8.1" />
+    </root>
+  </artifact>
+</component>

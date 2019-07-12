@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="argparse4j-0.8.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/company/jmxToJSON/libs/argparse4j-0.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
